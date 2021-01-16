@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+group 'co.com.automatizacion'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    compile "net.serenity-bdd:serenity-core:2.0.4",
+            "net.serenity-bdd:serenity-cucumber:1.9.20",
+            "org.assertj:assertj-core:1.7.0",
+            "net.serenity-bdd:serenity-screenplay:2.0.9",
+            "net.serenity-bdd:serenity-screenplay-webdriver:2.0.9"
+
+    testCompile "net.serenity-bdd:serenity-core:2.0.4",
+                "net.serenity-bdd:serenity-cucumber:1.9.20",
+                "org.assertj:assertj-core:1.7.0",
+                "net.serenity-bdd:serenity-screenplay:2.0.9",
+                "net.serenity-bdd:serenity-screenplay-webdriver:2.0.9"
+}
+
+test {
+    useJUnitPlatform()
+}
