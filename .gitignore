@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/intellij
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij
 
@@ -13,6 +12,10 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+
+#Borrar Target
+*/target/
+
 
 # Generated files
 .idea/**/contentModel.xml
@@ -29,6 +32,7 @@
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
+.gradle/*
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
