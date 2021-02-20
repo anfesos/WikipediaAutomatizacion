@@ -17,6 +17,9 @@
 #Borrar Target
 target/
 
+#Borrar Build
+build/
+
 # Generated files
 .idea/**/contentModel.xml
 

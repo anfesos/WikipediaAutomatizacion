@@ -1,4 +1,0 @@
-co/com/automatizacion/google/runners/BuscarPalabra.java
- co.com.automatizacion.google.runners.BuscarPalabra
-co/com/automatizacion/google/stepdefinitions/BuscarPalabraStepDefinitions.java
- co.com.automatizacion.google.stepdefinitions.BuscarPalabraStepDefinitions
